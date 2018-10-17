@@ -1,7 +1,8 @@
-# Install Assets
+# How to install Assets
 
 ## Open Asset Store
 
+  Window > General > Asset Store
   ![Unity asset store in screenshot](screenshots/1_open_asset_store.png)
 
 ## Download assets
@@ -26,4 +27,3 @@
   Import Unity package
 
   ![Import Unity packages screenshot](screenshots/6_import_unity_package.png)
-  
