@@ -1,4 +1,4 @@
-# How to install Assets
+# How to install Assets from Asset Store
 
 ## Open Asset Store
 

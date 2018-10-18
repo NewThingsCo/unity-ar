@@ -33,12 +33,6 @@
 
 3. Restart Unity
 
-4. Activate Vuforia
-
-    Edit > Project Settings > Player
-
-    ![Activate Vuforia screenshot](screenshots/6_activate-vuforia.png)
-
 ### Install mobile development tools
 
 Either (for iOS apps)

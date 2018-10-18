@@ -1,9 +1,8 @@
-# How to develop my first Vuforia AR app
+# How to develop your first AR app
 
 ## Register to Vuforia
 
-1. Browse to [Vuforia register page]
-(https://developer.vuforia.com/vui/auth/register)
+1. Browse to [Vuforia register page](https://developer.vuforia.com/vui/auth/register)
 2. Register
 3. Get development license key
 
@@ -21,7 +20,7 @@ About image targets on [Vuforia developer library](https://library.vuforia.com/a
 
 2. Add image target to database
 
-    In this tutorial we will use simple 2D image as a target. Set image width to 1 for convinience.
+    In this tutorial we will use simple 2D image as a target. Set image width to 1 for convenience.
 
     ![Vuforia add image target screenshot](screenshots/5_add-target.png)
     ![Vuforia upload image target screenshot](screenshots/6_upload-target.png)
@@ -50,12 +49,17 @@ About image targets on [Vuforia developer library](https://library.vuforia.com/a
     File > New Scene
     ![Create new scene screenshot](screenshots/12_create-new-scene.png)
 
-2. Add AR camera to scene
+2. Activate Vuforia
+
+    Edit > Project Settings > Player
+    ![Activate Vuforia screenshot](screenshots/6_activate-vuforia.png)
+
+3. Add AR camera to scene
 
     GameObject > Vuforia > AR Camera
     ![Add AR camera screenshot](screenshots/13_add-ar-camera.png)
 
-3. Add license to Vuforia config
+4. Add license to Vuforia config
 
     Select AR camera, copy Vuforia license from [License Manager](https://developer.vuforia.com/targetmanager/licenseManager) and paste it to Vuforia config in Unity.
 
@@ -63,17 +67,17 @@ About image targets on [Vuforia developer library](https://library.vuforia.com/a
     ![Copy Vuforia license screenshot](screenshots/15_copy-license.png)
     ![Paste Vuforia license screenshot](screenshots/16_add-license.png)
 
-4. Add image target to scene
+5. Add image target to scene
 
     ![Add image target to scene screenshot](screenshots/17_add-image-target.png)
 
-5. Attach object to image target
+6. Attach object to image target
 
     To show something when your image target is detected, you have to attach some object to image target. Simple cube is a good starting point. You can configure size and the position of the cube relative to the image target from the right side panel.
 
     ![Attach object to image target screenshot](screenshots/18_add-cube.png)
 
-6. Attach spin script to cube object
+7. Attach spin script to cube object
 
     ![Attach spin script screenshot](screenshots/20_add-script.png)
 
@@ -94,10 +98,10 @@ About image targets on [Vuforia developer library](https://library.vuforia.com/a
     }
     ```
 
-7. Save your scene
+8. Save your scene
 
     ![Save scene screenshot](screenshots/19_save-scene.png)
 
-## [Build and deploy](../build/build.md)
+## [Build and deploy!](../build/build.md)
 
 Now you should have App that shows spinning cube floating when your image target is detected!
