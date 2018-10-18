@@ -39,7 +39,11 @@
 
     ![Activate Vuforia screenshot](screenshots/6_activate-vuforia.png)
 
-### Install Xcode from [App Store](https://itunes.apple.com/gb/app/xcode/id497799835?mt=12)
+### Install mobile development tools
+
+Either (for iOS apps)
+
+#### Install Xcode from [App Store](https://itunes.apple.com/gb/app/xcode/id497799835?mt=12)
 
   1. Open Xcode
 
@@ -52,3 +56,12 @@
       ![Add Apple ID screenshot](screenshots/7_add-apple-id.png)
       ![Add Apple ID 2 screenshot](screenshots/8_add-apple-id.png)
       ![Sign in Apple ID screenshot](screenshots/9_sign-in-apple-id.png)
+
+Or (for Android apps)
+
+#### Install JDK and Android Studio
+
+1. Install [JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
+
+2. Install [Android Studio](https://developer.android.com/studio/#downloads). Follow the installation wizard and install any SDK packages it recommends.
