@@ -73,10 +73,31 @@ About image targets on [Vuforia developer library](https://library.vuforia.com/a
 
     ![Attach object to image target screenshot](screenshots/18_add-cube.png)
 
-6. Save your scene
+6. Attach spin script to cube object
+
+    ![Attach spin script screenshot](screenshots/20_add-script.png)
+
+    Copy code below to script file
+
+    ```c#
+    using UnityEngine;
+    using System.Collections;
+
+    public class Spin : MonoBehaviour
+    {
+        public float speed = 50f;
+
+        void Update ()
+        {
+            transform.Rotate(Vector3.up, speed * Time.deltaTime);
+        }
+    }
+    ```
+
+7. Save your scene
 
     ![Save scene screenshot](screenshots/19_save-scene.png)
 
 ## [Build and deploy](../build/build.md)
 
-Now you should have App that shows floating cube when your image target is detected!
+Now you should have App that shows spinning cube floating when your image target is detected!
