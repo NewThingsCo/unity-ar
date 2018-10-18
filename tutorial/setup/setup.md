@@ -65,3 +65,7 @@ Or (for Android apps)
 
 
 2. Install [Android Studio](https://developer.android.com/studio/#downloads). Follow the installation wizard and install any SDK packages it recommends.
+
+3. Setup JDK and Android SDK paths in Unity. (Unity > Preferences > External tools)
+
+  ![Setup paths in Unity](screenshots/10_setup-paths.png)
