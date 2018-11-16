@@ -15,12 +15,13 @@
 ## Build for iOS
 
 1. Open File > Build Settings
-2. Select iOS Platform
-3. Click Switch Platform button
-4. Open Player Settings
-5. Make sure "Vuforia Augmented Reality" is selected
-6. Set **unique** "Bundle identifier" in Other Settings
-7. Click Build button 
+2. Select your scene from "Scenes in Build"
+3. Select iOS Platform
+4. Click Switch Platform button
+5. Open Player Settings
+6. Make sure "Vuforia Augmented Reality" is selected
+7. Set **unique** "Bundle identifier" in Other Settings
+8. Click Build button
 
 ![Build for iOS screenshot](screenshots/3_build-for-ios.png)
 ![Set bundle identifier screenshot](screenshots/4_set-bundle-identifier.png)

@@ -21,16 +21,17 @@
 ## Build for Android
 
 1. Open File > Build Settings
-2. Select Android Platform
-3. Click Switch Platform button
-4. Open Player Settings
-5. Make sure "Vuforia Augmented Reality" is selected
-6. Set **unique** "Bundle identifier" in Other Settings
-7. Untick the Android TV support in Other Settings.
+2. Select your scene from "Scenes in Build"
+3. Select Android Platform
+4. Click Switch Platform button
+5. Open Player Settings
+6. Make sure "Vuforia Augmented Reality" is selected
+7. Set **unique** "Bundle identifier" in Other Settings
+8. Untick the Android TV support in Other Settings.
 
     ![Other Settings for Android screenshot](screenshots/8_set-android-tv-support.png)
 
-8. Click Build And Run button 
-9. Choose a folder to save the APK to (create e.g. a dedicated builds folder). The app should be launched.
+9. Click Build And Run button 
+10. Choose a folder to save the APK to (create e.g. a dedicated builds folder). The app should be launched.
 
 [See Unity instructions](https://unity3d.com/learn/tutorials/topics/mobile-touch/building-your-unity-game-android-device-testing)
