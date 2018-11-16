@@ -29,6 +29,8 @@ About image targets on [Vuforia developer library](https://library.vuforia.com/a
 
 1. Download image target database
 
+    Make sure that your image has enough features! You can see star rating for your image on target manager page.
+
     ![Download image target database screenshot](screenshots/7_download-database.png)
     ![Download image target database for unity screenshot](screenshots/8_download-database-unity.png)
 
